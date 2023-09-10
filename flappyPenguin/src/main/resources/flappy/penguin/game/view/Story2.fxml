@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flappy.penguin.game.view.Story2Controller">
+    <children>
+        <ImageView fitHeight="838.0" fitWidth="1040.0" layoutX="-8.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../images/story2.jpg" />
+            </image>
+        </ImageView>
+        <Text fill="#0d226b" layoutX="135.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Therefore, he decided to save all the lost penguins so that they are able to go back to their families" textAlignment="CENTER" wrappingWidth="759.3667602539062">
+            <font>
+                <Font name="BM YEONSUNG OTF" size="49.0" />
+            </font>
+        </Text>
+      <Button layoutX="871.0" layoutY="735.0" mnemonicParsing="false" onAction="#showDiff" text="Next  &gt;">
+         <font>
+            <Font name="Bradley Hand Bold" size="24.0" />
+         </font></Button>
+      <Button layoutX="15.0" layoutY="735.0" mnemonicParsing="false" onAction="#backStory1" text="&lt;  Previous">
+         <font>
+            <Font name="Bradley Hand Bold" size="24.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

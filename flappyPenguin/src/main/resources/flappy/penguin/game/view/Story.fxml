@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flappy.penguin.game.view.StoryController">
+   <children>
+      <ImageView fitHeight="890.0" fitWidth="1441.0" layoutX="-144.0" layoutY="-45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/story.jpeg" />
+         </image>
+      </ImageView>
+      <Text fill="#0d226b" layoutX="23.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="On an antarctic track, Pengu the penguin lost his way while looking for food. While he is looking for his way home, he saw a group of penguins being separated from their families due to the scattering of icebergs." textAlignment="CENTER" wrappingWidth="966.3094177246094">
+         <font>
+            <Font name="BM YEONSUNG OTF" size="38.0" />
+         </font>
+      </Text>
+      <Button layoutX="871.0" layoutY="735.0" mnemonicParsing="false" onAction="#showStory2" text="Next  &gt;">
+         <font>
+            <Font name="Bradley Hand Bold" size="24.0" />
+         </font></Button>
+      <Button layoutX="15.0" layoutY="735.0" mnemonicParsing="false" onAction="#backHome" text="&lt;  Home">
+         <font>
+            <Font name="Bradley Hand Bold" size="24.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
